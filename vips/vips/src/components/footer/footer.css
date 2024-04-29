@@ -1,0 +1,18 @@
+:root{
+
+    --cor-vermelho-padrao: rgba(228, 14, 14, 0.8);
+  }
+  
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-vermelho-padrao);
+    color: white; /* Cor do texto */
+    padding: 0.1%;
+}
+
+footer .vips-descartaveis {
+    font-style: italic;
+}

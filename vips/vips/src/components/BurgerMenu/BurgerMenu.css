@@ -1,0 +1,98 @@
+/* BurgerMenu.css */
+
+.barra-burger {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  z-index: 1000; 
+  
+}
+  
+.icon {
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hamburguer {
+  width: 50px;
+  height: 7px;
+  background-color: white;
+  margin: 3%;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.438);
+  
+}
+
+.area-menu {
+  position: absolute;
+  top: 53px;
+  left: 8px;
+  background-color: #ffffffdc;
+  width:90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0; /* Defina a opacidade como 0 para ocultar o menu inicialmente */
+  z-index: 999; /* Defina um z-index alto */
+  box-shadow: 1px 1px 10px black;
+  padding: 3%;
+  transition: opacity 0.5s ease; /* Adicione a transição para a opacidade */
+  overflow: hidden;
+}
+
+  .listamenu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    position: relative;
+  }
+
+
+  
+.listamenu a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background-color: orange;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.listamenu a:hover::after {
+  width: 100%;
+  left: 0;
+}
+  .active {
+    opacity: 1; /* Torna o menu visível */
+    z-index: 2; /* Garante que a área do menu esteja acima da barra de menu durante a transição */
+  }
+  
+  /* BurgerMenu.css */
+
+/* Outras regras CSS existentes... */
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os links verticalmente no centro */
+  }
+  
+  .menu-links a {
+    margin-bottom: 10px; /* Adiciona margem inferior para separar os links */
+    color: black;
+  }
+  
+ 

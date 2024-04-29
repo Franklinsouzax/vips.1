@@ -1,0 +1,14 @@
+.imagemcarrossel{
+
+border: 1px solid red;
+  
+}
+
+.areacarrossel{
+    overflow:'hidden';
+     height:'auto';
+     padding-bottom:'3%';
+     width: 100%;
+    
+     
+}

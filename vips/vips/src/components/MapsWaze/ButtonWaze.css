@@ -1,0 +1,27 @@
+.loc{
+
+    width: 20rem;
+    height: 3rem;
+    padding: 1%;
+    position:absolute;
+    top: 2.2%;
+    right: 35%;
+    box-shadow: 1px 3px 10px black;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loc:hover{
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+@media (max-width:600px){
+
+   .loc{
+
+    font-size: 15px;
+    left: 3%;
+    zoom: 0.8;
+   }
+}

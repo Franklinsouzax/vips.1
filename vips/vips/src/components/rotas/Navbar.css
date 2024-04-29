@@ -1,0 +1,54 @@
+/* Navbar.css */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.3% 1%;
+    background-color: rgb(206, 14, 14);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.849);
+    position: relative;
+    height: 50px;
+  }
+  
+  .logo {
+    display: flex;
+    align-self: center;
+    width: 70px;
+    position: absolute;
+    left: 3%;
+  }
+  
+  #home-link,
+  #sobre-link,
+  #produtos-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 1%;
+    position: relative; /* Adicione position: relative */
+    font-size: 18px;
+  }
+  
+  /* Adicione um pseudo-elemento para criar a linha de destaque */
+  #home-link::after,
+  #sobre-link::after,
+  #produtos-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 50%; /* Inicialmente centralizado */
+    width: 0;
+    height: 1px;
+    background-color: yellow;
+    transition: width 0.3s ease, left 0.3s ease; /* Transições para largura e posição */
+  }
+  
+  /* Estilo para o hover dos links */
+  #home-link:hover::after,
+  #sobre-link:hover::after,
+  #produtos-link:hover::after {
+    width: 100%; /* Aumenta a largura */
+    left: 0; /* Move para a esquerda */
+  }
+  
+  

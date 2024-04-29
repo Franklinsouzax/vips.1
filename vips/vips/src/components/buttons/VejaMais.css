@@ -1,0 +1,18 @@
+.buttonvejamais{
+
+    background-color: rgb(206, 14, 14);
+    border-color:transparent;
+    border-radius: 7px;
+    color: white;
+    padding: 2% 15%;
+    transition: all 0.4s;
+
+}
+
+.buttonvejamais:hover{
+
+    border: 2px solid  rgb(206, 14, 14);
+    background-color: transparent;
+    border-color:rgb(206, 14, 14);
+    color:  rgb(206, 14, 14);
+}

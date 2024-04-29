@@ -1,0 +1,61 @@
+.card{
+
+border: 1px solid rgba(5, 1, 1, 0.151);
+width: 20rem;
+height: 15rem;
+padding: 0 1%;
+box-sizing: border-box;
+margin: 2%;
+border-radius: 30px;
+box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: all 0.5s;
+}
+.cardimage{
+    width: 60%;
+    padding-bottom: 3%;
+    
+}
+.cardtitle{
+    height: 6vh;
+    font-size: 0.8vw;
+    width: 8rem    ;
+    color: rgb(206, 14, 14);;
+    padding-top: 0.5rem;
+}
+
+.card-descr{
+
+    display: none;
+}
+
+.card:hover{
+
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.897);
+}
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px){
+   
+    .cardtitle{
+        
+        font-size:10px;
+        }
+    }
+
+
+/* Estilos para telas entre 600px e 1000px */
+@media (min-width: 600px) and (max-width: 1000px) {
+    .cardtitle{
+        font-size: 10px;
+    }
+}
+
+/* Estilos para telas maiores que 1000px */
+@media (min-width: 1000px) {
+
+    
+}

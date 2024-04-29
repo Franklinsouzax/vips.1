@@ -1,0 +1,178 @@
+.barravazia{
+
+    /* background-color:rgba(228, 14, 14, 0.8) ; */
+    color: rgba(228, 14, 14, 0.8);
+    font-weight: 800;
+    font-size: 10px;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-detalhes {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.24);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.area-detalhes {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(1, 0, 2, 0.39);
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+    margin: 1%;
+    width: 90%;
+}
+
+.area-fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-detalhe {
+    width: 80%;
+}
+
+.area-text {
+    display: flex;
+    align-items: center;
+    justify-content: initial;
+    flex-direction: column;
+    width: 100%;
+}
+
+.detalhe-title {
+    font-size: 2vw;
+    color: rgba(228, 14, 14, 0.8);
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.116);
+}
+
+.detalhe-decricao {
+    width: 30vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.button-whatsapp {
+    height: 5vh;
+    padding-bottom: 2%;
+    margin-bottom: 10%;
+}
+
+@media (max-width:600px) {
+    
+    .button-whatsapp{
+    
+        font-size: 10px;
+
+    }
+    
+
+}
+
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+    .container-detalhes {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+        z-index: 3;
+        background-color: white;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.24);
+    }
+
+    .foto-detalhe {
+        padding-left: 3%;
+    }
+
+    .detalhe-title {
+        font-size: 5vw;
+        padding-right: 4%;
+        padding-bottom: -10px;
+    }
+
+    .detalhe-decricao {
+        width: 50vw;
+        font-size: 3vw;
+        padding-right: 4%;
+        
+    }
+
+    .button-whatsapp {
+        width: 45vw;
+        font-size: 3vw;
+        margin-top: 10%;
+        margin-right: 6vw;
+    }
+}
+
+
+
+/* Estilos para telas entre 600px e 1000px */
+@media (min-width: 600px) and (max-width: 1000px) {
+    .foto-detalhe {
+        padding-left: 32%;
+    }
+
+    .detalhe-title {
+        font-size: 2vw;
+    }
+
+    .detalhe-decricao {
+        width: 30vw;
+        font-size: 1.5vw;
+    }
+
+    .button-whatsapp {
+        width: 30vw;
+        
+    }
+}
+
+/* Estilos para telas maiores que 1000px */
+@media (min-width: 1000px) {
+   .barravazia{
+
+    font-size: 20px;
+   }
+   
+    .foto-detalhe {
+        padding-left: 32%;
+    }
+
+    .detalhe-title {
+        font-size: 2vw;
+    }
+
+    .detalhe-decricao {
+        width: 50vw;
+        font-size: 1.5vw;
+    }
+
+    .button-whatsapp {
+        width: 20vw;
+    }
+}
