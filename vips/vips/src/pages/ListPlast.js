@@ -8,6 +8,8 @@ import copoDrink from '../Images/copoDrink.png'
 import copoDrinkcolor from '../Images/CopoDrinkcolor.png'
 
 const Plast =
+
+
 [
     { id:27, foto:copoTransparente, name:'Copo Leitoso (Diversos tamanhos)' , decricao:'Copos Leitosos em diversos tamanhos, perfeitos para servir uma variedade de bebidas com estilo e praticidade em qualquer ocasião'},
     { id:28, foto:copinhoTampa ,name:'Potes para molhos com tampa' , decricao:'Potes com tampa para molhos, proporcionando praticidade e armazenamento seguro para seus condimentos favoritos.'},
@@ -20,4 +22,6 @@ const Plast =
     { id:35, foto:copoDrink , name:'Copo Rígido para Drinks (Diversos Tamanhos)' , decricao:'Copos rígidos para drinks em diversos tamanhos, ideais para servir bebidas com elegância e praticidade em qualquer ocasião.'},
     { id:36, foto: copoDrinkcolor ,name:'Copo Rígido para Drinks Colorido' , decricao:'Copos rígidos coloridos para drinks, adicionando um toque vibrante e divertido à sua festa ou evento especial.'},
 ]
+
+
 export default Plast;

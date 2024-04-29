@@ -2,7 +2,9 @@
 
   --cor-vermelho-padrao: rgba(228, 14, 14, 0.8);
 }
-
+body{
+  background-color: aliceblue;
+}
 .App {
   text-align: center;
 }

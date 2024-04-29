@@ -3,11 +3,11 @@ import '../folder/barra.css'
 
 import React from 'react'
 
-const Barra = ({nametitle,icon}) => {
+const Barra = ({nametitle,}) => {
   return (
     <div className='barra'>
         <p>{nametitle}</p>
-        {icon}='<icon/>'
+    
     </div>
   )
 }
