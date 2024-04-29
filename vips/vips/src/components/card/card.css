@@ -25,6 +25,7 @@ transition: all 0.5s;
     width: 8rem    ;
     color: rgb(206, 14, 14);;
     padding-top: 0.5rem;
+    text-align: center;
 }
 
 .card-descr{

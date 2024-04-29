@@ -99,13 +99,13 @@
         justify-content: center;
         align-items: center;
         padding-top: 2%;
-        z-index: 3;
         background-color: white;
         box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.24);
     }
 
     .foto-detalhe {
         padding-left: 3%;
+       
     }
 
     .detalhe-title {
@@ -128,10 +128,21 @@
         margin-right: 6vw;
     }
 }
+    .whatsaap{
+    font-size: 4vw;
+    padding: 0 4%;
+}
 
 
 
 /* Estilos para telas entre 600px e 1000px */
+@media (max-width:600px){
+
+.button-whatsapp {
+        font-size: 9px;
+        
+    }
+}
 @media (min-width: 600px) and (max-width: 1000px) {
     .foto-detalhe {
         padding-left: 32%;
@@ -148,8 +159,13 @@
 
     .button-whatsapp {
         width: 30vw;
+        font-size: 10px;
         
     }
+}
+.whatsaap{
+    font-size: 2vw;
+    padding: 0 4%;
 }
 
 /* Estilos para telas maiores que 1000px */
@@ -161,18 +177,29 @@
    
     .foto-detalhe {
         padding-left: 32%;
+        padding: 0;
+        margin: 1% 1% 1% 15%;
+        
     }
 
     .detalhe-title {
         font-size: 2vw;
+        text-align: center;
+        width: 40vw;
     }
 
     .detalhe-decricao {
-        width: 50vw;
+        text-align: center;
+
+        width: 40vw;
         font-size: 1.5vw;
+        padding: 3%;
+
     }
 
     .button-whatsapp {
         width: 20vw;
+        font-size: 1.1vw;
     }
 }
+

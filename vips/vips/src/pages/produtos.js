@@ -62,7 +62,7 @@ const Produtos =() =>{
                 />
             ))}
            </section>
-           <Barra nametitle='Linha Papeis e Guardanapo'/>
+           <Barra nametitle='Linha Papeis e Guardanapos'/>
            <section className='area-card'>
            {Guardanapos.map((produto,index)=>(
                 <Card
@@ -74,7 +74,7 @@ const Produtos =() =>{
                 />
             ))}
            </section>
-           <Barra nametitle='Linha Plasticos'/>
+           <Barra nametitle='Linha Plásticos'/>
            <section className='area-card'>
            {Plast.map((produto,index)=>(
                 <Card
@@ -86,7 +86,7 @@ const Produtos =() =>{
                 />
             ))}
            </section>
-           <Barra nametitle='Linha Papelão'/>
+           <Barra nametitle='Outros Produtos'/>
            <section className='area-card'>
            {Papelao.map((produto,index)=>(
                 <Card

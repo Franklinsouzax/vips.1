@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './BurgerMenu.css'; // Importe o arquivo de estilos local
+import logo from '../logo/logo.png'
 
 function BurgerMenu() {
   const [active, setActive] = useState(false);
@@ -16,6 +17,7 @@ function BurgerMenu() {
   return (
     <div>
       <nav className='barraburger' onClick={toggleMenu}>
+        <img src={logo} className='logo' alt='logo'/>
         <div className={`icon ${active ? 'active' : ''}`}>
           <div className='hamburguer' />
           <div className='hamburguer' />

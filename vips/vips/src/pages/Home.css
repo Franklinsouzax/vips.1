@@ -12,3 +12,51 @@ border: 1px solid red;
     
      
 }
+.quemsomos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.homebutton{
+    width: 25vw;
+    height: 6vh;
+    padding: 3% 6%;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+}
+.link-button{
+    text-decoration: none;
+     color: inherit;
+}
+
+@media (max-width:600px){
+    .homebutton{
+        width: 42vw;
+        height: 5vh;
+        margin: 3%;
+        font-size: 15px;
+        margin-bottom: 15%;
+    }
+
+    .carrossel{
+
+        margin-bottom: 5%;
+
+    }
+}
+
+@media (min-width:800px){
+
+    .homebutton{
+        font-size: 1.5vw;
+        height: 4vh;
+        width: 20vw;
+        margin-bottom: 10%;
+    }
+}

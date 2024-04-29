@@ -1,5 +1,6 @@
 import '../detalhes/Details.css'
 import React from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 
 
@@ -25,13 +26,13 @@ const Details = ({ produtoSelecionado }) => {
             <h2 className='detalhe-title'>{name}</h2>
             <p className='detalhe-decricao'>{decricao}</p>
             <a href='/'> 
-            <button className='button-whatsapp buttonvejamais'
-            >verificar com a loja </button>
+            <button className='button-whatsapp buttonvejamais'>
+            Verificar com a loja 
+            <FaWhatsapp className='whatsaap' style={{ fontSize:20}} /> 
+            </button>
             </a>
             </div>
-            
-           </section>
-            
+           </section>  
         </div>
     );
 };

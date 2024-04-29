@@ -1,25 +1,28 @@
 import Barra from "../components/folder/barra"
 import ButtonWaze from "../components/MapsWaze/ButtonWaze"
+import '../pages/sobre.css'
+
 const Sobre =( ) =>{
+  
  return(
     <div>
-        <h1>
+        <h1 className="titlesobre">
         VIP Descartáveis: Sua Loja de Descartáveis de Confiança em São Gonçalo, RJ
         </h1>
-        <p>
+        <p className="textsobre">
         Uma das grandes vantagens de escolher a VIP Descartáveis como sua fornecedora de 
         produtos descartáveis é a excelente relação custo-benefício. Com preços acessíveis
         e promoções regulares, a loja permite que seus clientes economizem sem abrir 
         mão da qualidade. Além disso, a VIP Descartáveis oferece opções de entrega rápida
         e eficiente, facilitando ainda mais a vida de seus clientes.
         </p>
-        <p>
+        <p className="textsobre">
         Para entrar em contato com a VIP Descartáveis e fazer suas compras, basta ligar 
         para o telefone (21) 99863-2430. A equipe terá prazer em atendê-lo e fornecer 
         todas as informações necessárias. Se preferir, você também pode visitar a loja 
         pessoalmente e conferir de perto todo o seu catálogo de produtos.
         </p>
-        <p>
+        <p className="textsobre ultimo">
         Não importa se você está organizando uma festa, gerenciando um estabelecimento
         comercial ou simplesmente buscando praticidade no seu dia a dia, a VIP Descartáveis
         está aqui para atender todas as suas necessidades de forma rápida, eficiente e 

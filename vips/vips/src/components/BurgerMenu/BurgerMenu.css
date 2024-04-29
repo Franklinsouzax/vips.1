@@ -8,6 +8,7 @@
   z-index: 1000; 
   
 }
+
   
 .icon {
   width: fit-content;
@@ -16,6 +17,8 @@
   flex-direction: column;
   justify-content: center;
   cursor: pointer;
+  position: absolute;
+  right: 3%;
 }
 
 .hamburguer {
@@ -24,7 +27,7 @@
   background-color: white;
   margin: 3%;
   border-radius: 3px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.438);
+  
   
 }
 
